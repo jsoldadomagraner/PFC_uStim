@@ -52,11 +52,11 @@ PFC_uStim/
 ├── license.md  
 └── code/  
 &nbsp; &nbsp; &nbsp; &nbsp; ├── addpaths.m  
-    ├── behavior/  
-    ├── decoder/  
-    ├── FRs/  
-    ├── subspaces/  
-    └── utils/  
+&nbsp; &nbsp; &nbsp; &nbsp; ├── behavior/  
+&nbsp; &nbsp; &nbsp; &nbsp; ├── decoder/  
+&nbsp; &nbsp; &nbsp; &nbsp; ├── FRs/  
+&nbsp; &nbsp; &nbsp; &nbsp; ├── subspaces/  
+&nbsp; &nbsp; &nbsp; &nbsp; └── utils/  
 
 
 System Requirements:  
