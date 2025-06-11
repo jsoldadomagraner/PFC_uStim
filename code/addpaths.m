@@ -1,8 +1,8 @@
 
 function [datapath, statspath, figurepath] =  addpaths
 
-% Place where data is stored, and where stats and figures will be stored
-% The data is publicly available on KiltHub (see README)
+% Folder where data is stored, and where stats and figures will be stored
+% This folder can be dowloaded from a public repository (see README)
 mypath     = '~/PFC_uStim_data/';
 
 datapath   = [mypath 'data/'];
