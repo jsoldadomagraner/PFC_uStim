@@ -76,7 +76,7 @@ License: CC BY-NC-SA 4.0
 
 Related Publication: https://doi.org/10.1523/JNEUROSCI.2197-24.2025  
 
-Data accessibility: The data package "PFC_uStim_data" can be downloaded from Zenodo 10.5281/zenodo.15640851  
+Data accessibility: The data package "PFC_uStim_data" can be downloaded from Zenodo https://doi.org/10.5281/zenodo.15640850
 
 Contact for Issues: Joana Soldado-Magraner, jsoldadomagraner@cmu.edu
 
