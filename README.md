@@ -1,24 +1,25 @@
 # PFC_uStim
 
 Code package for the manuscript:  
-"Robustness of working memory to prefrontal cortex microstimulation", Soldado-Magraner et al. 2025 
+"Robustness of working memory to prefrontal cortex microstimulation", Soldado-Magraner et al. 2025  
 JNeuroscience, https://doi.org/10.1523/JNEUROSCI.2197-24.2025
 
-Version: v1.0
+Version: v1.0  
 Date Created: 2025/06/09
 
-Author Information
-Name: Joana Soldado-Magraner
-ORCiD: 0000-0003-3607-7264
-Institution: Carnegie Mellon University
-Email: jsoldadomagraner@cmu.edu
+Author Information  
+Name: Joana Soldado-Magraner  
+ORCiD: 0000-0003-3607-7264  
+Institution: Carnegie Mellon University  
+Email: jsoldadomagraner@cmu.edu  
 GitHub Username: jsoldadomagraner
 
 ---------------------
 FILES & USAGE
 ---------------------
 
-Main Files:
+Main Files:  
+
    A. Filename: reactiontimes.m       
       Purpose:  Computes behavioral stats (RTs)      
       Type: script
@@ -54,24 +55,24 @@ Main Files:
 
 Directory Structure:
 
-PFC_uStim/
-├── README.md
-├── license.md
-└── code/
-    ├── addpaths.m
-    ├── behavior/
-    ├── decoder/
-    ├── FRs/
-    ├── subspaces/
-    └── utils/
+PFC_uStim/  
+├── README.md  
+├── license.md  
+└── code/  
+    ├── addpaths.m  
+    ├── behavior/  
+    ├── decoder/  
+    ├── FRs/  
+    ├── subspaces/  
+    └── utils/  
 
 
-System Requirements:
-   Programming Language and version: Matlab R2019b
+System Requirements:  
+   Programming Language and version: Matlab R2019b  
    Key Dependencies: The code package consists of customly written functions. It also uses functions to fit Factor Analysis models, written by Byron Yu, Version 1.01 2011, and the dPCA code package written by Kobak et al. 2016. These functions are included in the package (within the utils folder).
    
 
-Usage Instructions:
+Usage Instructions:  
    How to Run: Run first the main functions listed above to compute statistics based on neural and behavioral data, and then the rest of the functions can be used to recreate the different plots and analyses that appear on the manuscript.
 
 
@@ -79,8 +80,8 @@ Usage Instructions:
 REPRODUCIBILITY & ACCESS
 --------------------------
 
-License: CC BY-NC-SA 4.0
-Related Publication: https://doi.org/10.1523/JNEUROSCI.2197-24.2025
+License: CC BY-NC-SA 4.0  
+Related Publication: https://doi.org/10.1523/JNEUROSCI.2197-24.2025  
 
 Contact for Issues: Joana Soldado-Magraner, jsoldadomagraner@cmu.edu
 
