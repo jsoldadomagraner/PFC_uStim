@@ -20,29 +20,29 @@ FILES & USAGE
 
 Main Files:  
 
-   A. Filename: reactiontimes.m       
-      Purpose:  Computes behavioral stats (RTs)      
+   Filename: reactiontimes.m       
+   Purpose:  Computes behavioral stats (RTs)      
         
-   B. Filename: saccadeprecision.m       
-      Purpose:  Computes behavioral stats (saccade precision)    
+   Filename: saccadeprecision.m       
+   Purpose:  Computes behavioral stats (saccade precision)    
       
-   C. Filename: errors.m       
-      Purpose:  Computes behavioral stats (error fraction)    
+   Filename: errors.m       
+   Purpose:  Computes behavioral stats (error fraction)    
       
-   D. Filename: NBdecoder_fit.m      
-      Purpose:  Fits Naive Bayes decoder
+   Filename: NBdecoder_fit.m      
+   Purpose:  Fits Naive Bayes decoder
       
-   E. Filename: FRs_stats.m      
-      Purpose:  Computes neural activity statistics
+   Filename: FRs_stats.m      
+   Purpose:  Computes neural activity statistics
       
-   F. Filename: fitFAtouStimdata.m      
-      Purpose:  Fits factor analysis model to neural activity
+   Filename: fitFAtouStimdata.m      
+   Purpose:  Fits factor analysis model to neural activity
       
-   G. Filename: FAstats.m      
-      Purpose:  Computes neural activity statistics in the dominant subspace of the data, defined using FA.
+   Filename: FAstats.m      
+   Purpose:  Computes neural activity statistics in the dominant subspace of the data, defined using FA.
       
-   H. Filename: dPCAstats.m       
-      Purpose:  Computes neural activity statistics in the memory subspace of the data, defined using dPCA.
+   Filename: dPCAstats.m       
+   Purpose:  Computes neural activity statistics in the memory subspace of the data, defined using dPCA.
 
 
 Directory Structure:
