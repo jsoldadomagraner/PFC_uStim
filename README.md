@@ -22,35 +22,27 @@ Main Files:
 
    A. Filename: reactiontimes.m       
       Purpose:  Computes behavioral stats (RTs)      
-      Type: script
         
    B. Filename: saccadeprecision.m       
       Purpose:  Computes behavioral stats (saccade precision)    
-      Type: script
       
    C. Filename: errors.m       
       Purpose:  Computes behavioral stats (error fraction)    
-      Type: script
       
    D. Filename: NBdecoder_fit.m      
       Purpose:  Fits Naive Bayes decoder
-      Type: script
       
    E. Filename: FRs_stats.m      
       Purpose:  Computes neural activity statistics
-      Type: script
       
    F. Filename: fitFAtouStimdata.m      
       Purpose:  Fits factor analysis model to neural activity
-      Type: script
       
    G. Filename: FAstats.m      
       Purpose:  Computes neural activity statistics in the dominant subspace of the data, defined using FA.
-      Type: script
       
    H. Filename: dPCAstats.m       
       Purpose:  Computes neural activity statistics in the memory subspace of the data, defined using dPCA.
-      Type: script
 
 
 Directory Structure:
