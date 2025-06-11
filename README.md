@@ -1,9 +1,5 @@
 # PFC_uStim
 
--------------------
-GENERAL INFORMATION
--------------------
-
 Code package for the manuscript: 
 "Robustness of working memory to prefrontal cortex microstimulation", Soldado-Magraner et al. 2025 
 JNeuroscience, https://doi.org/10.1523/JNEUROSCI.2197-24.2025
@@ -12,11 +8,11 @@ Version: v1.0
 Date Created: 2025/06/09
 
 Author Information
-    Name: Joana Soldado-Magraner
-    ORCiD: 0000-0003-3607-7264
-    Institution: Carnegie Mellon University
-    Email: jsoldadomagraner@cmu.edu
-    GitHub Username: jsoldadomagraner
+Name: Joana Soldado-Magraner
+ORCiD: 0000-0003-3607-7264
+Institution: Carnegie Mellon University
+Email: jsoldadomagraner@cmu.edu
+GitHub Username: jsoldadomagraner
 
 ---------------------
 FILES & USAGE
