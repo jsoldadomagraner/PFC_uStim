@@ -1,5 +1,7 @@
 % Plot dPCA example trajectories
 
+[datapath, statspath, figurepath] = addpaths;
+
 monkey   = 'Wa';
 session  = 8;
 
@@ -20,8 +22,6 @@ if nouSallang
     numangplot    = 4; 
     nouSallanglab = '_nouSallang'; 
 end
-
-[datapath, statspath, figurepath] = addpaths;
 
 % analyse correct trials
 datafolder = 'correct';

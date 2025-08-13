@@ -10,7 +10,7 @@ statspath  = [mypath 'stats/'];
 figurepath = [mypath 'figures/'];
 
 % path to this code package
-codepath = '~/PFC_uStim/';
+codepath = '~/git_projects/PFC_uStim/';
 addpath(genpath(codepath))
 
 end

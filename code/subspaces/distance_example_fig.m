@@ -4,7 +4,6 @@
 % Distance computed considering the first two dimensions only
 
 %% Paths and specs
-run ../addpaths
 
 [~, statspath, figurepath] = addpaths;
 

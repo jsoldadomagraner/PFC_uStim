@@ -20,6 +20,9 @@ FILES & USAGE
 
 Main Files:  
 
+   Filename: addpaths.m       
+   Purpose:  Contains path information to the code and data      
+    
    Filename: reactiontimes.m       
    Purpose:  Computes behavioral stats (RTs)      
         
@@ -65,7 +68,7 @@ System Requirements:
    
 
 Usage Instructions:  
-   How to Run: Run first the main functions listed above to compute statistics based on neural and behavioral data, and then the rest of the functions can be used to recreate the different plots and analyses that appear on the manuscript.
+   How to Run: First, specify your code and data paths in the script 'addpaths.m' and run it. Second, run the main functions listed above to compute statistics based on the neural and behavioral data. Third, run the rest of the functions to recreate the different plots and analyses that appear on the manuscript.
 
 
 --------------------------

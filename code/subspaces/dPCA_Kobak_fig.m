@@ -3,12 +3,12 @@
 
 %% Paths and specs
 
+[datapath, statspath, figurepath] = addpaths;
+
 monkey   = 'Wa';
 session  = 8;
 
 savefig  = false;
-
-[datapath, statspath, figurepath] = addpaths;
 
 % analyse correct trials
 datafolder = 'correct';

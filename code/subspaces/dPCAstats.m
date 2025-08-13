@@ -2,8 +2,6 @@
 
 %% Paths and specs
 
-run ../addpaths
-
 [datapath, statspath, ~] = addpaths;
 
 % analyse correct trials

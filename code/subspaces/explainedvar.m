@@ -1,7 +1,6 @@
 % Dominant (FA) and memory (dPCA) subspaces explained variance
 
 %% Paths and specs
-run ../addpaths
 
 [~, statspath, figurepath] = addpaths;
 

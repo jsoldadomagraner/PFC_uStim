@@ -1,7 +1,6 @@
 % Plot decoding accuracy in the dominant (FA) and memory (dPCA) subspaces
 
 %% Paths and specs
-run ../addpaths
 
 [~, statspath, figurepath] = addpaths;
 

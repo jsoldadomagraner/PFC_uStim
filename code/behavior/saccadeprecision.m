@@ -2,8 +2,6 @@
 
 %% Paths and specs
 
-run ../addpaths
-
 [datapath, statspath, figurepath] = addpaths;
 
 monkeys    = {'Wa','Sa'};

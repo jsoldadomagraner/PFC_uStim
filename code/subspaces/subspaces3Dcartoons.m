@@ -1,8 +1,8 @@
 % Dominant and memory subspaces cartoons
 
-savefig = false;
-
 [~, ~, figurepath] = addpaths;
+
+savefig = false;
 
 % target location
 x1 = [0,1,0,1];

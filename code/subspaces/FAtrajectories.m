@@ -1,5 +1,7 @@
 % Plot FA example trajectories
 
+[~, statspath, figurepath] = addpaths;
+
 monkey   = 'Wa';
 session  = 8;
 
@@ -20,8 +22,6 @@ if nouSallang
     numangplot    = 4; 
     nouSallanglab = '_nouSallang'; 
 end
-
-[~, statspath, figurepath] = addpaths;
 
 numdims  = 4; % mean optimal latent dimensionality
 

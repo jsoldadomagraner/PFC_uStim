@@ -2,8 +2,6 @@
 
 %% Paths and specs
 
-run ../addpaths
-
 [datapath, statspath, figurepath] = addpaths;
 
 monkeys   = {'Wa','Sa'};
@@ -252,18 +250,18 @@ uStimmodstd  = squeeze(nanstd(100*uStimmodtot,0,[1,2]));
 uStimmodmean(uStimp) = nan;
 uStimmodstd(uStimp)  = nan;
 
-stats{1} = uStimmodmean;
-stats{2} = uStimmodstd;
+modstats{1} = uStimmodmean;
+modstats{2} = uStimmodstd;
 
 figure(h1)
-shadedErrorBar(1:tpre,stats{1}(1:tpre),stats{2}(1:tpre), ...
+shadedErrorBar(1:tpre,modstats{1}(1:tpre),modstats{2}(1:tpre), ...
     'lineProps',{'LineStyle','-','Color',colm(m,:),'linewidth',1}, ...
     'patchSaturation',alpha);
-shadedErrorBar(tpost:T,stats{1}(tpost:end),stats{2}(tpost:end), ...
+shadedErrorBar(tpost:T,modstats{1}(tpost:end),modstats{2}(tpost:end), ...
     'lineProps',{'LineStyle','-','Color',colm(m,:),'linewidth',1}, ...
     'patchSaturation',alpha);
 
-l1(m)=plot(stats{1},'k','Linewidth',3,'Color',colm(m,:), 'MarkerSize',ms, ...
+l1(m)=plot(modstats{1},'k','Linewidth',3,'Color',colm(m,:), 'MarkerSize',ms, ...
     'Marker',marker{m},'MarkerFaceColor',colm(m,:),'LineStyle',linestyle{m});
 
 ax = gca;
